@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Student Login</title>
+  <link rel="stylesheet" href="./student.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <!-- <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300&display=swap"
+      rel="stylesheet"
+    /> -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;700&family=Poppins:ital,wght@1,100&display=swap"
+    rel="stylesheet" />
+</head>
+
+<body>
+  <section class="main">
+    <form id="student-form">
+      <div class="title">
+        <h1>Student Login Form</h1>
+      </div>
+      <div class="main-1">
+        <label for="student-name">Student Name </label>
+        <input class="student" type="text" id="studentName" placeholder="Enter Name" required />
+      </div>
+
+      <div class="main-1">
+        <label for="student-email">Student Email :</label>
+
+        <input class="student" type="email" id="studentEmail" required placeholder="Enter Email" />
+      </div>
+
+      <div class="main-1">
+        <label for="Mobile-No">Mobile No :</label>
+
+        <input class="student" type="number" id="MobileNo" required placeholder="Enter Mobile No." />
+      </div>
+
+      <div class="main-1">
+        <label for="student-">Student Address :</label>
+        <textarea id="student" class="student" placeholder="Enter Address"></textarea>
+      </div>
+
+      <div class="main-2" id="radio-btn">
+        <label for="gender" class="gender" id="gender">Gender :</label>
+
+        <input type="radio" name="gender" class="gender-input" id="male" value="male" />
+        <label for="male">Male</label>
+
+        <input type="radio" id="female" class="gender-input" name="gender" value="Female" />
+        <label for="female">Female</label>
+      </div>
+
+      <div class="main-3" id="checkbox">
+        <label for="scope of interest" class="text" id="check">Scope of Interest :</label>
+        <div>
+          <input type="checkbox" name="scope of interest" value="Java Development" class="scope-input" />
+          <label for="">Java Development</label>
+        </div>
+
+        <input type="checkbox" name="scope of interest" value="Web Development" id="web" class="scope-input" />
+        <label for="web">Web Development</label>
+        <div>
+          <input type="checkbox" name="scope of interest" class="scope-input" value=" AI" />
+          <label for="ai">AI</label>
+        </div>
+        <div>
+          <input type="checkbox" name="scope of interest" value="DevOps" class="scope-input" /><label
+            for="">DevOps</label>
+        </div>
+        <div>
+          <input type="checkbox" name="scope of interest" value="Machine Learning" class="scope-input" />
+          <label for="">Machine Learning</label>
+        </div>
+      </div>
+
+      <div class="main-1">
+        <button type="button" class="btn">Submit</button>
+      </div>
+    </form>
+  </section>
+
+  <div>
+    <table id="StudentLogin">
+      <thead>
+        <tr>
+          <th>Student Name</th>
+          <th>Email</th>
+          <th>Mobile No</th>
+          <th>Student Address</th>
+          <th>Gender</th>
+          <th>Scope of interest</th>
+          <th>Record</th>
+        </tr>
+      </thead>
+      <tbody id="tbody"></tbody>
+    </table>
+  </div>
+  <script src="./student.js"></script>
+</body>
+
+</html>

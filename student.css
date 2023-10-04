@@ -1,0 +1,167 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+.title{
+    margin: 5px;
+    font-weight: bold;
+    color: black;
+    display: flex;
+    /* 24 / 30 / 36 */
+    font-size: 30px;
+    letter-spacing: 1px;
+    color:#343a40;
+    justify-content: center;
+   
+}
+.main{
+    /* margin-left: 10px;
+    padding: 10px  ;
+    width: 40%;
+    /* background-image: url(Images/studentImage.jpg); */
+    background-color: rgb(218, 241, 241); 
+    /* background-repeat: no-repeat; */
+    /* display: flex; */
+        /* justify-content: center; */
+     /* align-items: center;  */ 
+     max-width: 30%;
+     margin: auto;
+}
+.main-1{
+    padding: 10px;
+    margin: 8px;
+    font-weight: bold;
+    border-radius: 5px;
+    border-color: black;
+    color:#495057;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.main-2{
+    padding: 10px;
+    margin: 8px;
+    /* font-weight: bold; */
+    border-radius: 5px;
+    border-color: black;
+    color:#495057;
+    display: flex;
+}
+
+.main-2 *{
+    padding-left: 10px;
+}
+.btn{
+
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #3dd456;
+    color: #fff;
+    border: #fff; 
+    cursor: pointer;
+}
+.btn1{
+
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #1e76c3;
+    color: #fff;
+    border: #fff; 
+    cursor: pointer;
+}
+.btn2{
+
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #f70303;
+    color: #fff;
+    border: #fff; 
+    cursor: pointer;
+}
+.radio-btn{
+    display: block;
+    margin: 10px;
+    padding: 10px;
+}
+.radio-btn input{
+    display: block;
+    margin: 10px;
+    padding: 10px;
+}
+#checkbox{
+    margin: 8px;
+    padding: 10px;
+    display: inline-block;
+}
+
+
+.text{
+    font-weight: bold;
+    color:#495057;
+}
+
+table {
+    width: 80rem !important;
+    margin: auto !important;
+    border-collapse: collapse;
+ }
+
+table, th, td {
+    border: 1px solid white;
+    background-color :rgb(218, 241, 241); 
+    border-color: rgb(255, 196, 196); 
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+th{
+    color: black;
+    font-weight: bold;
+    background-color: rgba(77, 231, 231, 0.729);
+
+}
+
+.student{
+    margin-bottom: 20px;
+    margin-top: 8px;
+    padding: 10px;
+    width: 90%;
+}
+
+
+
+
+.main-3{
+    padding: 10px;
+    margin: 8px;
+    /* font-weight: bold; */
+    border-radius: 5px;
+    border-color: black;
+    color:#495057;
+    display: flex;
+}
+
+
+input[type=checkbox]{
+    margin-left:20px ;
+    margin-right:4px ;
+}
+
+.gender{
+    font-weight: bold;
+    color:#495057;
+}
+
+#male{
+    margin-left: 10px;
+}
+
+#female{
+    margin-left: 10px;
+}
